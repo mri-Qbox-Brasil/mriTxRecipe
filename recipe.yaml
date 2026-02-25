@@ -505,6 +505,11 @@ tasks:
     src: ./tmp/mri_Qbox.zip
 
   - action: download_github
+    dest: ./resources/[mri]/mri_Qadmin
+    ref: main
+    src: https://github.com/mri-Qbox-Brasil/mri_Qadmin
+
+  - action: download_github
     dest: ./resources/[mri]/mri_Qcarkeys
     ref: main
     src: https://github.com/mri-Qbox-Brasil/mri_Qcarkeys
@@ -885,10 +890,10 @@ tasks:
   #   ref: main
   #   src: https://github.com/mri-Qbox-Brasil/ps-camera
 
-  - action: download_github
-    dest: ./resources/[mri]/[ps]/ps-adminmenu
-    ref: main
-    src: https://github.com/mri-Qbox-Brasil/ps-adminmenu
+  # - action: download_github
+  #   dest: ./resources/[mri]/[ps]/ps-adminmenu
+  #   ref: main
+  #   src: https://github.com/mri-Qbox-Brasil/ps-adminmenu
 
   - action: download_github
     dest: ./resources/[mri]/[ps]/ps-buffs
