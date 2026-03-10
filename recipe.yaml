@@ -84,10 +84,10 @@ tasks:
     ref: main
     src: https://github.com/mri-Qbox-Brasil/mhacking
 
-  - action: download_github
-    dest: ./resources/[standalone]/fm-logs
-    ref: mriQbox
-    src: https://github.com/mri-Qbox-Brasil/fm-logs
+#   - action: download_github
+#     dest: ./resources/[standalone]/fm-logs
+#     ref: mriQbox
+#     src: https://github.com/mri-Qbox-Brasil/fm-logs
 
   - action: waste_time # prevent github throttling
     seconds: 10
